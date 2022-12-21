@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+}
+body{
+    max-width: 1900px;
+    width: 100%;
+    height: 100vh;
+    background-color: #19A1AE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 52vw bottom 40vh, left 50vw top 50vh;
+}
+.card{
+    width: 326px;
+    height: 374px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+}
+.back-image{
+    max-width: 100%;
+}
+.avatar{
+    width: 96px;
+    height: 96px;
+    border: 5px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.image-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+.name{
+    color: #2E3349;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 24px 0 0 0;
+}
+.age{
+    color:#6B7082;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 0 0 8.5px;
+}
+.location{
+    color: #6B7082;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin: 13px 0 0 0;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #E8E9EC;
+    margin:28px 0 0 0;
+}
+.bottom-content{
+    width: 100%;
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 24px 52px 24px 41px;
+}
+.bottom-content div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.span1{
+    color: #2E3349;
+    font-weight: 700;
+    font-size: 18px;
+    
+    text-align: center;
+}
+.span2{
+    color: #6B7082;
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 1440px) {
+    .card{
+        width: 350px;
+        height: 374px;
+    }
+    .bottom-content{
+        padding: 24px 54px 24px 47px;
+    }
+
+}
